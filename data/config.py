@@ -4,7 +4,9 @@ import os.path
 # gets home dir cross platform
 #HOME = os.path.expanduser("~")
 # 设为当前工作目录
-HOME = os.path.abspath('..')
+HOME = os.path.abspath('E:/')
+#HOME = os.path.split(os.path.realpath(__file__))[0]
+#HOME = os.path.split(HOME)[0]
 
 # for making bounding boxes pretty
 COLORS = ((255, 0, 0, 128), (0, 255, 0, 128), (0, 0, 255, 128),
